@@ -16,27 +16,26 @@ h1 {
     justify-content: space-between;
 }
 #logo {
-      width: 4%;
+      width: 6%;
       padding: 10px;
 }
-  /* /* Style the links inside the navigation bar */
+/* Style the links inside the navigation bar */
 .link {
     float: right;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 30px;
     text-decoration: none;
     font-size: 17px;
 }
-  
-  /* Change the color of links on hover */
+/* Change the color of links on hover */
 .link:hover {
     text-decoration: underline #F2F3AE;
     /* background-color: #F2F3AE; */
     color: white;
 }
   
-  /* Add a color to the active/current link */
+/* Add a color to the active/current link */
 .link:active {
     background-color: #F2F3AE;
     color: black;
