@@ -12,31 +12,32 @@ h1 {
     background-color: black;
     overflow: hidden;
     font-family: 'Open Sans', sans-serif;
-    padding: 10px;
-  }
-  .topnav img {
-      width: 2%;
-      margin: auto;
-  }
-  /* Style the links inside the navigation bar */
-  .topnav a {
+    display: flex;
+    justify-content: space-between;
+}
+#logo {
+      width: 4%;
+      padding: 10px;
+}
+  /* /* Style the links inside the navigation bar */
+.link {
     float: right;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
+}
   
   /* Change the color of links on hover */
-  .topnav a:hover {
+.link:hover {
     text-decoration: underline #F2F3AE;
     /* background-color: #F2F3AE; */
     color: white;
-  }
+}
   
   /* Add a color to the active/current link */
-  .topnav a.active {
+.link:active {
     background-color: #F2F3AE;
     color: black;
 }
