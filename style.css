@@ -4,9 +4,21 @@ body {
 ul {
     color:white;
 }
-h1 {
+
+.typewriter h1{
     font-family: 'Open Sans', sans-serif;
-    color: white;
+    font-size: 50px;
+    color: #F28482;
+    text-align: center;
+    margin: 0 auto;
+    white-space: nowrap; /* Keeps the content on a single line */
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    animation: 
+        animated-text 2s steps(30,end) 1s 1 normal both;
+}
+@keyframes animated-text{
+    from{width: 0;}
+    to{width: 20em;}
 }
 .topnav {
     background-color: black;
